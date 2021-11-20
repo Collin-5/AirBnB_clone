@@ -54,3 +54,21 @@
     height: 100%;
     width: 25%;
 }
+
+.popover{
+    background-color: #FAFAFA;
+    border: 1px solid #DDDDDD;
+    padding: 20px;
+    list-style-type: none;
+    display: none;
+    border-radius: 4px;
+}
+
+.popover ul{
+    list-style-type: none;
+}
+
+.locations:hover .popover,
+.amenities:hover .popover{
+    display: block;
+}
